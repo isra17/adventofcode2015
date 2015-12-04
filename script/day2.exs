@@ -17,5 +17,6 @@ ribbon_qty = data
   |> Enum.map(fn [l,w,h] -> l*2 + w*2 + l*w*h end)
   |> Enum.sum
 
+IO.puts("==== Day 2 ====")
 IO.puts("Paper needed: #{paper_qty}")
 IO.puts("Ribbon needed: #{ribbon_qty}")

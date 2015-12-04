@@ -31,6 +31,7 @@ case IO.read(:stdio, :line) do
       |> Enum.reduce(HashSet.new, &Set.union/2)
       |> Set.size
 
+    IO.puts("==== Day 3 ====")
     IO.puts("House visited: #{visited}")
     IO.puts("House visited with robot: #{robot_santa_visited}")
 end
