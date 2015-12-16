@@ -5,4 +5,5 @@ elixir script/day3.exs < input/day3
 elixir script/day4.exs < input/day4
 elixir script/day5.exs < input/day5
 elixir script/day6.exs < input/day6
+elixir script/day7.exs < input/day7
 
