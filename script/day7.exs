@@ -53,5 +53,6 @@ vm = SantaVM.compile(data)
 cache = Dict.put(HashDict.new, "b", a_value)
 {_, a_override_value} = SantaVM.eval({vm, cache}, "a")
 
+IO.puts("==== Day 7 ====")
 IO.puts("a value: #{a_value}")
 IO.puts("a value (b overriden): #{a_override_value}")
